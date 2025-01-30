@@ -8,7 +8,7 @@ provider "google" {
 resource "google_compute_instance" "vm_instance" {
   name         = "gaia-vm"
   machine_type = "e2-micro"  # Fixed instance type
-  zone         = "us-central1-a"
+  zone         = "asia-south1-a"
 
   boot_disk {
     initialize_params {
